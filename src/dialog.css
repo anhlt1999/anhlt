@@ -1,0 +1,60 @@
+#dialog{
+	display: none;
+	position: absolute;
+	width: 480px;
+	height: 660px;
+	background-color: #0973b9;
+	top: 10%;
+	left: 15%;
+	right: 0;
+	bottom: 0;
+}
+	#dialog #dialog-tittle{
+		display: flex;
+		color: #fff;
+		height: 25px;
+		line-height: 22px;
+		background-color: #0973b9;
+		border: 5px solid #0973b9 ;
+		border-radius: 5px;	
+	}
+		#dialog #dialog-tittle #close-button{
+			position: absolute;
+			right: 0;
+			border: 1px solid #ccc;
+			border-radius: 50%;
+			width: 20px;
+			height: 20px;
+			background-image: url(../images/cancel.png) ;
+			cursor: pointer;
+		}
+	#dialog #dialog-body{
+		padding: 20px;
+		height: 540px;
+		background-color: rgb(255, 255, 255);
+		border: 5px solid #0973b9 ;
+		border-radius: 5px;
+	}
+		#dialog #dialog-body #row{
+			margin-bottom: 8px;
+		}	
+			#dialog #dialog-body #row label{
+				display: block;
+			}
+			#dialog #dialog-body #row input{
+				display:block;
+				height:20px;
+			}
+	#dialog #dialog-footer{
+		height: 30px;
+		background-color: white;
+		border: 5px solid #0973b9 ;
+		border-radius: 5px;
+		display: flex;
+		align-items:center ;
+		justify-content: flex-end;
+	}
+		#dialog #dialog-footer button{
+			margin-right: 10px;
+		}
+	
