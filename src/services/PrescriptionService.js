@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PRESCRIPTION_API_BASE_URL = "http://localhost:8080/api/v1/prescriptions";
+const PRESCRIPTION_API_BASE_URL = "https://hospitalrestapi.herokuapp.com/api/v1/prescriptions";
 
 class PrescriptionService {
 
