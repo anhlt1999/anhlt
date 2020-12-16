@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PATIENT_API_BASE_URL = "http://hospitalrestapi.herokuapp.com/api/v1/patients";
+const PATIENT_API_BASE_URL = "https://hospitalrestapi.herokuapp.com/api/v1/patients";
 
 class PatientService {
 
