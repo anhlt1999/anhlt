@@ -68,6 +68,8 @@ class ListExaminationComponent extends Component {
                                     <th> out</th>
                                     <th> disease</th>
                                     <th> totalMoney</th>
+                                    <th> Actions</th>
+
                                 </tr>
                             </thead>
                             <tbody>
