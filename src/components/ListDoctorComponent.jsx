@@ -42,12 +42,12 @@ class ListDoctorComponent extends Component {
                 <div id = "menu_bot">
                 <ul>
 				<li><a href="doctors" title  ="Trang chủ" class ="active" > Trang chủ</a></li>
-				<li><a href="" title  ="Lên lịch"> Lên lịch </a></li>
+				<li><a href="examinations" title  ="Lên lịch"> Lên lịch </a></li>
 				<li><a href="doctors" title  ="Bác sỹ"> Bác sỹ </a></li>
                 <li><a href="nurses" title  ="Y tá"> Y tá </a></li>
 				<li><a href="patients" title  ="Bệnh nhân"> Bệnh nhân </a></li>
 				<li><a href="prescriptions" title  ="Thuốc"> Thuốc </a></li>
-				<li><a href="" title  ="Thống kê"> Thống kê </a></li>
+				<li><a href="stat" title  ="Thống kê"> Thống kê </a></li>
 			</ul>
 		</div>
                  <h2 className="text-center">Doctors List</h2>
