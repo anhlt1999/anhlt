@@ -109,7 +109,7 @@ class UpdateExaminationComponent extends Component {
                                         <div className = "form-group">
                                             <label> doctorID: </label>
                                             <input placeholder="doctorID" name="doctorID" className="form-control" 
-                                                value={this.state.nurseID} onChange={this.changedoctorIDHandler}/>
+                                                value={this.state.doctorID} onChange={this.changedoctorIDHandler}/>
                                         </div>
                                         <div className = "form-group">
                                             <label> nurseID: </label>
