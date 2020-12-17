@@ -16,7 +16,7 @@ n
         return axios.get(EXAMINATION_API_BASE_URL + '/' + examinationID);
     }
 
-    updateExamination(examinations, examinationID){
+    updateExamination(examination, examinationID){
         return axios.put(EXAMINATION_API_BASE_URL + '/' + examinationID, examination);
     }
 
