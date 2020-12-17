@@ -90,7 +90,7 @@ class UpdateExaminationComponent extends Component {
 
 
     cancel(){
-        this.props.history.push('/examimations');
+        this.props.history.push('/examinations');
     }
 
     render() {

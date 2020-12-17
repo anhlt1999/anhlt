@@ -55,16 +55,16 @@ class CreateExaminationComponent extends Component {
         let examination = {doctorID: this.state.doctorID, nurseID: this.state.nurseID,
             patientID: this.state.patientID, prescriptionID: this.state.prescriptionID,in: this.state.in,
             out: this.state.out,disease: this.state.disease, totalMoney: this.state.totalMoney};
-        console.log('examimation => ' + JSON.stringify(examination));
+        console.log('examination => ' + JSON.stringify(examination));
 
         // step 5
         if(this.state.examinationID === '_add'){
             ExaminationService.createExaminations(examination).then(res =>{
-                this.props.history.push('/examimations');
+                this.props.history.push('/examinations');
             });
         }else{
             ExaminationService.updateExamination(examination, this.state.examinationID).then( res => {
-                this.props.history.push('/examimations');
+                this.props.history.push('/examinations');
             });
         }
     }
@@ -97,14 +97,14 @@ class CreateExaminationComponent extends Component {
 
 
     cancel(){
-        this.props.history.push('/examimations');
+        this.props.history.push('/examinations');
     }
 
     getTitle(){
         if(this.state.examinationID === '_add'){
-            return <h3 className="text-center">Add examimation</h3>
+            return <h3 className="text-center">Add examination</h3>
         }else{
-            return <h3 className="text-center">Update examimation</h3>
+            return <h3 className="text-center">Update examination</h3>
         }
     }
     render() {
